@@ -73,7 +73,7 @@ h2 { margin: 0 0 12px; font-size: 1.1rem; }
   flex-wrap: wrap;
   margin-bottom: 10px;
 }
-/* Hide Player 1 pick during Player 2 turn */
+
 .hidden-pick {
   filter: blur(8px);
   user-select: none;

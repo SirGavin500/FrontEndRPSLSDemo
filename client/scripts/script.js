@@ -124,15 +124,15 @@ function aPlayRound() {
   aUpdateScoreUI();
 
   if (aP1Score === aWinTarget) {
-    aRoundResultEl.textContent = "🏆 Player 1 wins the match!";
+    aRoundResultEl.textContent = "Player 1 wins the match!";
     aGameOver = true;
   }
 
   if (aP2Score === aWinTarget) {
     aRoundResultEl.textContent =
       aMode === "cpu"
-        ? "🏆 CPU wins the match!"
-        : "🏆 Player 2 wins the match!";
+        ? " CPU wins the match!"
+        : " Player 2 wins the match!";
     aGameOver = true;
   }
 
